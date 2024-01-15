@@ -292,8 +292,13 @@ header h1 {
     position: absolute;
     right: 0;
     top: 250px;
-    height: 359px;
+    height: 350px;
     width: 400px;
+}
+.holiday-border-container{
+    width: 82%;
+    max-width:1320px;
+    margin: auto;
 }
 /* ----------Holiday sale style end------------- */
 
@@ -301,14 +306,13 @@ header h1 {
 /* ----------portfolio style start------------- */
 
 #portfolio{
-    /* margin-top: 22%; */
+    margin-top: 6%;
     height: 1070px;
     margin-bottom: 150px;
 } 
 #portfolio .container{
     width: 82%;
     max-width:1320px;
-    /* margin: 90px auto ; */
     height: 600px;
     border-radius: 16px;
 }
@@ -338,21 +342,21 @@ header h1 {
 #portfolio .product-container {
     margin-top: 40px;
     display: flex;
-    /* gap: 15px; */
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 #portfolio .product-container .product{
     width: 32%;
-    /* height: 400px; */
     border-radius: 16px;
-    /* margin-bottom: 15px; */
-
 }
 #portfolio .product-second-container{
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
+}
+#portfolio .product-second-container .product{
+    width: 32%;
+    border-radius: 16px;
+
 }
 /* ----------portfolio style end------------- */
 
@@ -360,7 +364,7 @@ header h1 {
 /* ----------newsletter style start------------- */
 #newsletter .container{
     margin-top: 90px;
-    /* height: 600px; */
+    height: 500px;
     padding-top: 100px;
     /* padding: 80px 230px; */
     text-align: center;
