@@ -25,6 +25,7 @@ header{
     background-image: url(../assets/Banner\ Image.png);
     background-position:center;
     background-repeat: no-repeat;
+    margin-top: 50px;
 }
 header .container{
     width:100%;
@@ -414,11 +415,14 @@ header h1 {
 /* ----------footer style start------------- */
 footer {
     margin-top: 90px;
-    /* height: 500px; */
-    /* align-items: center; */
     background-color: #070211;
-    padding-top: 90px;
-    /* margin-bottom: 0; */
+    padding: 90px 0;
+}
+.footer-container {
+    width: 82%;
+    max-width:1320px;
+    margin: auto;
+    border-radius: 16px;
 }
 footer .address-contact-container{
     display: flex;
@@ -437,10 +441,9 @@ footer .contact-details p, footer .address-details p{
 footer .media-container{
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding: 15px ;
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: auto;
-    /* margin: auto 600px auto 600px; */
-    /* background-color: #FFF; */
 }
 footer .media-container ul{
     display: flex;
