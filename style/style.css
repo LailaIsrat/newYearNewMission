@@ -305,7 +305,7 @@ header h1 {
 
 #portfolio{
     margin-top: 6%;
-    height: 1070px;
+    height: 1010px;
     margin-bottom: 150px;
 } 
 #portfolio .container{
@@ -360,7 +360,6 @@ header h1 {
 
 /* ----------newsletter style start------------- */
 #newsletter .container{
-    margin-top: 90px;
     height: 500px;
     padding-top: 100px;
     text-align: center;
