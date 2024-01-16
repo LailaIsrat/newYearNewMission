@@ -192,7 +192,6 @@ header h1 {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
     font-size: 22px;
     font-weight: 600;
-    margin-top: 10px;
 }
 #commingSoon .commingSoonDetails h2{
     color: #070211;
@@ -200,21 +199,21 @@ header h1 {
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
-    margin-bottom: 22px;
+    margin-bottom: 10px;
 }
 #commingSoon .commingSoonDetails .shortdescription,#commingSoon .commingSoonShortDetails .shortdescription{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
-    line-height: 1.4em;
+    line-height: 1.3em;
 }
 #commingSoon .commingSoonimg img {
-    height: 300px;
-    width: 300px;
+    height: 310px;
+    width: 310px;
 }
 #commingSoon .commingSoonimg {
-    height: 300px;
-    width: 300px!important;
+    height: 310px;
+    width: 310px!important;
     padding: 20px;
     border-radius: 999px;
     border: 12px solid #F00;
@@ -227,12 +226,11 @@ header h1 {
     color: #F00;
     font-size: 45px;
     font-weight: 700;
-    margin-bottom: 10px;
 }
 #commingSoon .commingSoonShortDetails img{
     height: 120px;
     width: 120px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 /* ----------Comming Soon style end------------- */
@@ -317,7 +315,7 @@ header h1 {
     border-radius: 16px;
 }
 #portfolio .portfolio-details-container{
-    width: 60%;
+    width: 71%;
 }
 #portfolio .portfolio-details-container .short-title{
     color: #F00;
@@ -337,25 +335,25 @@ header h1 {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
-    line-height: 1.2em; 
+    line-height: 1.4em; 
 }
 #portfolio .product-container {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
-#portfolio .product-container .product{
+#portfolio .product-container .product, #portfolio .product-second-container .product{
     width: 32%;
     border-radius: 16px;
 }
 #portfolio .product-second-container{
-    margin-top: 15px;
+    margin-top: 18px;
     display: flex;
     justify-content: space-between;
 }
-#portfolio .product-second-container .product{
-    width: 32%;
-    border-radius: 16px;
+
+#portfolio .product-container .product img,#portfolio .product-second-container .product img{
+    width: 100%;
 }
 /* ----------portfolio style end------------- */
 
@@ -406,7 +404,7 @@ header h1 {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
-    line-height: 1.2em; 
+    line-height: 1.4em; 
     padding: 0 200px;
 }
 
@@ -432,15 +430,19 @@ footer .address-contact-container{
 }
 footer .contact-details p, footer .address-details p{
     color: #FFF;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
     
 }
+footer .icon{
+    margin-right: 6px;
+    font-size: 15px;
+}
 
 footer .media-container{
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 15px ;
+    padding: 30px ;
     display: flex;
     justify-content: center;
     margin: auto;
